@@ -8,8 +8,8 @@ const weather =(props)=>{
             {props.geoinfo}
         </button> */}
         <div className=''>
-            <span>temperature: {props.temp}</span>
-            <span>time: {props.name}</span>
+            <span>temperature: {props.temp} / </span>
+            <span>time: {props.time} / </span>
             <span>detail: {props.detail}</span>
         </div>
         </>

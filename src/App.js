@@ -140,7 +140,7 @@ class App extends Component {
         time={testd[1]}
         detail={testd[2]}
         />
-      console.log(testd[0])
+      console.log(testd[1])
       console.log(typeof this.state.weather[0])
     }
 
