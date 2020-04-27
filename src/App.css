@@ -1,5 +1,50 @@
-.App {
+.header{grid-area: header;
+  background-color: bisque;
+  color: black;
+  height: 60px;
+  line-height: 60px;
+  font-weight: 600;
+  }
+.footer{
+  grid-area: footer;
+  background-color: #ffcdba;
+}
+  .left{grid-area: left;
+  background-color: rgb(160, 224, 253);}
+  .mid{grid-area: mid; background-color: #f8f1db;}
+  .right{grid-area: right;
+  background-color: rgb(160, 224, 253);}
+  .main {
   text-align: center;
+  width: 100%;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 100px 1fr 100px;
+  grid-template-areas: 'header header header'
+  'left mid right'
+  'footer footer footer';
+  grid-template-rows: 60px 1fr 30px;
+  min-height: 100vh;
+}
+.geo{
+  display: block;
+  background: #bae6ba;
+  border-radius: 5px;
+  margin: 10px 10px 0;
+  border: darkgrey 1px solid;
+  padding: 10px;
+}
+
+.weather{
+  background: #ffd2c1;
+  display: block;
+  border-radius: 5px;
+  margin: 10px 10px 0;
+  border: darkgrey 1px solid;
+  padding: 10px;
+}
+.inputarea{
+  margin: 20px;
 }
 
 .App-logo {
