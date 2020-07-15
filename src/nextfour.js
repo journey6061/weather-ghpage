@@ -1,21 +1,21 @@
 import React from 'react';
-import './weather.css'
+import './nextfour.css'
 
-const weather =(props)=>{
+const nextfour =(props)=>{
     return(
         <>
         {/* <button onClick={props.click} className='geoinfo'>
             {props.geoinfo}
         </button> */}
-        <div className='weathermain'>
+        <div className='weathernext'>
             {/* <span>location: {props.geoclick} - </span> */}
-            <p className='location'>{props.loc}</p>
             <p className='temp'>{props.temp}&#176;</p>
-            <p className='time'>{props.time}</p>
-            <p className='desc'>{props.detail}</p>
+            <p className='desc'>{props.time}</p>
+            {/* <p>{props.detail}</p> */}
+            <p>{props.img}</p>
         </div>
         </>
     )
 }
 
-export default weather
+export default nextfour

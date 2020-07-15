@@ -2,3 +2,38 @@
     background-color: lightblue;
     border: 1px solid gray;
 }
+.weathermain{
+    background: white;
+    margin: 0;
+    display: inline-block;
+    text-align: left;
+    padding: 10px;
+}
+
+.weathermain .temp {
+    font-size: 3.8rem;
+    margin: 0.5rem 0;
+    font-weight: 600;
+}
+
+.weathermain .desc{
+    font-size: 1rem;
+    margin: 0.3rem 0;
+}
+
+.weathermain .time{
+    margin: 0.5rem 0 0rem;
+    font-size: 1.5rem;
+    color: cadetblue;
+    font-weight: 500;
+}
+
+
+
+.weathermain .location{
+    margin-top: 0;
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: cadetblue;
+    margin-bottom: 0;
+}
